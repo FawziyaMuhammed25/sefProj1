@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+
+//  import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Section1 from './components/section1';
+// import Business from './components/Business';
 
 function App() {
+  useEffect(() => {
+    document.body.style.backgroundColor = '#1a1919'; // Set your desired color
+    
+   
+    return () => {
+      document.body.style.backgroundColor = null;
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* <Router>
+        
+      <Routes>
+      
+        <Route path="/Business" element={< Business />} />
+      </Routes>
+    </Router> */}
+    <Section1/>
+      
     </div>
   );
 }
