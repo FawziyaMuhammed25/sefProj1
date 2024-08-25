@@ -10,7 +10,7 @@ const Section2 = () => {
   // };
   return (
     
-   <div className='text-white '>
+    <div className='text-white '>
 
       <div className="container ">
        
@@ -25,7 +25,7 @@ const Section2 = () => {
                            <img src={item.image} className='img-fluid'/>
                            </div>
                     </div>
-                    <div className="col-lg-9 col-md-12 p-2">
+                    <div className="col-lg-9 col-md-12 p-2 ">
                       <div>
                          <h4>{item.name}</h4>
                         <div className="line mb-2 " ></div>
