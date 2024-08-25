@@ -5,7 +5,7 @@ import{faAngleRight} from '@fortawesome/free-solid-svg-icons'
 export const Data  =[
     {
         id:1,
-        name :"tech",
+        name :"EDUCATION",
         title: "here's the title of the artical",
         icon:  <FontAwesomeIcon icon={faClock} className=' align-self-center' /> ,
         time : "2 h ago",
@@ -26,7 +26,7 @@ export const Data  =[
     },
     {
         id:3,
-        name :"tech",
+        name :"SPORTS",
         title: "here's the title of the artical",
         icon:  <FontAwesomeIcon icon={faClock} className=' align-self-center' /> ,
         time : "2 h ago",
@@ -37,7 +37,7 @@ export const Data  =[
     },
     {
         id:4,
-        name :"tech",
+        name :"EDUCATION",
         title: "here's the title of the artical",
         icon:  <FontAwesomeIcon icon={faClock} className=' align-self-center' /> ,
         time : "2 h ago",
