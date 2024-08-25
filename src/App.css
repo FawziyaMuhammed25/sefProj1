@@ -1,22 +1,54 @@
-body{
+p , h1 , h2 , h3 , h4{
     font-family: "Open Sans", sans-serif;
 }
 .line {
     width: 10%;
-    height: 2px;
+    height: 1px;
    background-color: #BF9B30;
+}
+.bg{
+    background-image: url(../src/assets/main_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+}
+.overLay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    
+}
+.bg-container{
+    background-color: rgba(0 , 0 ,0 ,0.8);
+    border-radius: 3px;
+    /* z-index: 10;  */
+   position: absolute;
+ top: 65%;
+  
+
+}
+.mb{
+    margin-bottom: 250px;
+}
+.w{
+    width: 5em;
+    bottom: -15%;
 }
 .vertical-text{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     direction: rtl;
     transform: rotate(180deg);
+    /* position: absolute;
+    top: -2px; */
 }
-.div1 , .div2{
-    background-color: rgba(0 , 0 ,0 ,0.8);
-    border-radius: 3px;
-    
-}
+
+
 .font{
     font-size: 40px;
     display: block;
@@ -25,10 +57,19 @@ h1 , .title , h4{
     text-transform: uppercase;
 }
 
+.div1{
+    background-color: transparent;
+}
+
+
   /* Styles for mobile devices */
   @media (max-width: 599px) {
     .div1{
         margin-bottom: 30px;
+       
+    }
+    .w{
+        bottom: 45px;
     }
     .clck{
         position: absolute;
@@ -40,5 +81,9 @@ h1 , .title , h4{
     }
     .font{
         display: none !important;
+    }
+    .mb{
+        margin-bottom: 700px;
+        overflow: hidden;
     }
   }
