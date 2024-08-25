@@ -2,12 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Section2 from './section2';
+import { DataSec1 } from '../dataSec1';
 
 const Section1 = () => {
 
+
   return (
-       
-     <div className='mb'>
+  <div className='mb'>
         <div className='bg '>
 <div className='text-white overLay '>
    <div className="container bg-container position-relative ">
@@ -107,7 +108,7 @@ const Section1 = () => {
 
 </div> 
   </div>
-  );
+);
 };
 
 export default Section1;
