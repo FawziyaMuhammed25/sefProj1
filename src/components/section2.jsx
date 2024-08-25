@@ -10,9 +10,9 @@ const Section2 = () => {
   // };
   return (
     
-    <div className='text-white'>
+   <div className='text-white '>
 
-      <div className="container">
+      <div className="container ">
        
           
                 <div className=''>
@@ -20,12 +20,12 @@ const Section2 = () => {
                 Data.map((item) => (
                   <div key={item.id}  className='row mb-5 '>
                     
-                    <div className="  col-lg-4 col-md-12 ">
-                           <div className="image w-100 m-auto">
+                    <div className="  col-lg-3 col-md-12 ">
+                           <div className="image w-75 m-auto">
                            <img src={item.image} className='img-fluid'/>
                            </div>
                     </div>
-                    <div className="col-lg-8 col-md-12 p-2">
+                    <div className="col-lg-9 col-md-12 p-2">
                       <div>
                          <h4>{item.name}</h4>
                         <div className="line mb-2 " ></div>
